@@ -6,8 +6,17 @@ result =0
 #    result= result+1
 
 
-# range(start,n)
-for _ in range(2,50):
+# range(start,n,increment)
+for _ in range(2,50,2):
     result= result+1
-    
+
 print(result)
+
+numbers =[1,4,5,3,8,54,4]
+maxNumber =numbers[0]
+
+for i in numbers:
+    if i>maxNumber:
+        maxNumber=i
+        
+print(maxNumber)
